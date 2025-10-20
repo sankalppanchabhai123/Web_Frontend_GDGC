@@ -74,6 +74,4 @@ const TechTeamPage = ({ data }) => {
 
 }
 
-
-
 export default TechTeamPage
