@@ -42,6 +42,7 @@ Empower students to:
 
 ---
 
+
 ## 🧩 How to Contribute
 
 We love contributions! Here's how you can get involved:
