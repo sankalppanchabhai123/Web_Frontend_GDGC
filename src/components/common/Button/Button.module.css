@@ -50,6 +50,7 @@
 .button:hover {
   color: #ffffff;
   border: 1px solid var(--hover-color);
+  
 }
 
 .button:hover:before {
