@@ -19,3 +19,28 @@ Whether you are a **beginner** or an **expert**, GDSC is the right place to:
 
 ---
 
+## 🧭 Mission
+
+Empower students to:
+- Explore cutting-edge technologies such as **Web, Android, Cloud, AI/ML, and Flutter**.
+- Develop technical and leadership skills through collaborative projects.
+- Build solutions for local community problems using technology.
+
+---
+
+## 🧑‍💻 What We Do
+
+- 📅 **Workshops & Sessions:** Learn directly from experts and peers.  
+- 💬 **Community Meetups:** Share knowledge and experiences.  
+- 💡 **Projects & Hackathons:** Apply your learning in real-world scenarios.  
+- 🤝 **Collaborations:** Work with other GDSC chapters and tech communities.  
+
+---
+
+## 📂 Repository Structure
+
+
+---
+
+
+
