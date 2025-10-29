@@ -41,6 +41,13 @@ Empower students to:
 
 
 ---
+## 🧩 How to Contribute
 
+We love contributions! Here's how you can get involved:
+
+1. **Fork** this repository 🍴  
+2. **Clone** your forked repo:
+   ```bash
+   git clone https://github.com/your-username/GDSC.git
 
 
