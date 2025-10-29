@@ -11,6 +11,7 @@ const leadwork = ["Start a club","Host workshops","Build projects","Colab with o
 const who = ["Faculty", "Leads" , "Coordinators", "Members"];
 const hellomsg = ["What is GDSC" , "How to join?" , "Why to join?" , "what is a chapter"]
 
+
 const config = {
   initialMessages: [createChatBotMessage("Hi there! Welcome to the GDSC Family!!")],
   customComponents: {
@@ -49,7 +50,6 @@ const config = {
         hellomsg
       }
     },
-
   ],
 };
 

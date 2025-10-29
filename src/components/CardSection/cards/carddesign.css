@@ -155,10 +155,8 @@ color: black;
     width: 90%;
   }
 
-  .first{
-    font-size: 27px;
-  }
-  .second{
-    font-size: 27px;
+  .first,
+  .second {
+    font-size: 24px;
   }
 }
