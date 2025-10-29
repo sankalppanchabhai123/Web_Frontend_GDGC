@@ -30,6 +30,14 @@ let info = [
         margin: "-100px",
         topImage: null,
     },
+    {
+    question: "Can I be the lead?",
+    answer: "Leadership roles are open to enthusiastic individuals who are proactive and committed. If you're interested in leading, let us know — we’ll guide you through the next steps and requirements.",
+    border: "#FFB808",
+    margin: "-100px",
+    topImage: null,
+    },
+
 ]
 
 export default info
