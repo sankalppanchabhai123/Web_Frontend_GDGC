@@ -39,7 +39,7 @@ export default function ContactUs() {
                 alert("Couldn't send mail successfully!!")
             });
 
-            emailjs.sendForm('service_be3i6vf', 'template_bdi9xul', form.current, '_El3IBTU7KOivsfk4')
+        emailjs.sendForm('service_be3i6vf', 'template_bdi9xul', form.current, '_El3IBTU7KOivsfk4')
             .then((result) => {
                 alert("Your mail has been sent successfully!! We will soon reachout to you");
                 setuserdata({ name: "", email: "", message: "" })
@@ -65,7 +65,7 @@ export default function ContactUs() {
             <div className={classes.insisemail} data-aos="fade-up"
                 data-aos-delay="800">
                 <p className={classes.pques}>Got A Question?</p>
-                <p className={classes.contact}>Contact <span style={{ color: "rgba(234, 67, 53, 1)" }}>G</span><span style={{ color: "rgba(52, 168, 83, 1)" }}>D</span><span style={{ color: "rgba(251, 188, 4, 1)" }}>S</span><span style={{ color: "rgba(66, 133, 244, 1)" }}>C</span>!</p>
+                <p className={classes.contact}>Contact <span style={{ color: "rgba(234, 67, 53, 1)" }}>G</span><span style={{ color: "rgba(52, 168, 83, 1)" }}>D</span><span style={{ color: "rgba(251, 188, 4, 1)" }}>G</span><span style={{ color: "rgba(66, 133, 244, 1)" }}>C</span>!</p>
                 <p className={classes.would_love}>We would love to hear from you! Please feel free to reach out to us
                     with any questions or comments using the contact form below.</p>
 
@@ -89,7 +89,7 @@ export default function ContactUs() {
                 <p className={classes.sponsor} data-aos="zoom-out">Sponsor Us</p>
                 <p className={classes.talk} data-aos="fade-up">By becoming a sponsor, you'll have the opportunity to promote your brand and showcase your commitment to social responsibility. </p>
 
-                <Button label='Sponsor US' margin="40px" dataaos="flip-up" onClick={() => {window.open("mailto:dsc.dypcoe@gmail.com", "_blank")}}/>
+                <Button label='Sponsor US' margin="40px" dataaos="flip-up" onClick={() => { window.open("mailto:dsc.dypcoe@gmail.com", "_blank") }} />
             </div>
         </div>
     )
