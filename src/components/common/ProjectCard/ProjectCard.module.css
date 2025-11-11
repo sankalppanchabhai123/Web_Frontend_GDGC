@@ -9,7 +9,7 @@
 }
 
 .mainDiv.dark{
-    background: #303439;
+    background: #313439;
 }
 
 .container {
@@ -21,7 +21,7 @@
 }
 
 .container.dark{
-    background: #303439;
+    background: #32363b;
     color: #fff;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .brandBtn:nth-child(1) a {
-    color: #0A66C2;
+    color: #0b67c3;
 }
 
 .brandBtn:nth-child(2) a {
@@ -166,7 +166,7 @@
 }
 
 .morebtn {
-    background: #4285f4;
+    background: #4084f3;
     border: none;
     display: flex;
     align-items: center;

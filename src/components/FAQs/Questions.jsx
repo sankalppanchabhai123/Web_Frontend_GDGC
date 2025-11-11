@@ -19,17 +19,25 @@ let info = [
     {
         question: "What should I carry when attending a workshop?",
         answer: "We recommend you carry with you a notebook, pen and a laptop because more often than not we make our hands dirty with code. Most importantly, carry along a healthy dose of curiosity and enthusiasm.",
-        border: "#14B25F",
+        border: "#11b55dff",
         margin: "100px",
         topImage: boy,
     },
     {
         question: "Who should I reach out to if I have any questions?",
         answer: "If you have any questions or comments, please don't hesitate to contact us by clicking the button below. We would be happy to stay engaged via email even after the event",
-        border: "#FFB808",
+        border: "#fab609ff",
         margin: "-100px",
         topImage: null,
     },
+    {
+    question: "Can I be the lead?",
+    answer: "Leadership roles are open to enthusiastic individuals who are proactive and committed. If you're interested in leading, let us know — we’ll guide you through the next steps and requirements.",
+    border: "#fdb707ff",
+    margin: "-100px",
+    topImage: null,
+    },
+
 ]
 
 export default info

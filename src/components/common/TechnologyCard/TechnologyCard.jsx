@@ -21,7 +21,7 @@ const TechnologyCard = ({ current }) => {
     var divBgColor;
     if (theme.theme === "dark") {
         if (!current.reverse)
-            divBgColor = "#222"
+            divBgColor = "#1d1d1dff"
         else
             divBgColor = "none"
     }

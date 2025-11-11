@@ -8,5 +8,4 @@ const NotFoundBg = ({color}) => {
 
     )
 }
-
 export default NotFoundBg

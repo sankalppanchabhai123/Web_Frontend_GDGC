@@ -99,7 +99,7 @@ const Landing = () => {
       {/* <Cube id="paint0_linear_11_7" top={x1} left={y1} startColor="#4285F4" stopColor="#0F9D58" /> */}
       {/* <Cube id="paint0_linear_11_7" top={x1} left={y1} startColor="#4285F4" stopColor="#0F9D58" /> */}
       {/* </div> */}
-      <div className={`${classes.mainContainer} ${theme.theme === "dark" ? classes.dark : ""}`}>
+      <div className={${classes.mainContainer} ${theme.theme === "dark" ? classes.dark : ""}}>
         <div className={classes.mainLockup}>
           <img src={logo} alt="Main Logo" />
           <motion.h1 style={{ textAlign: "center", overflow: "hidden", display: "flex" }}
