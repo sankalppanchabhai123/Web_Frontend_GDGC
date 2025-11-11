@@ -32,7 +32,7 @@ const TeamCard = ({ current }) => {
     <div className={`${classes.main} ${theme.theme === "dark" ? classes.dark : ""}`} data-aos="zoom-in">
       <div className={classes.imgDiv}>
         <ImgBg imgColor={`${theme.theme === "dark" ? "#ccc" : "#222"}`} />
-        <div className={classes.imgContainer}><img src={current.img} style={{ "--shadowColor": current.shadow }} alt="Profile" /></div>
+        <div className={classes.imgContainer}><img src={current.img} alt="Profile" /></div>
       </div>
       <div className={classes.info}>
         <h3>{current.name}</h3>

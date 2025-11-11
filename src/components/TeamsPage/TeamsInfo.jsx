@@ -1,41 +1,42 @@
-// import image from '../../assets/img.png'
-// import ins from '../../assets/deepaliMam.jpg'
-// import t1 from '../../assets/t1.jpg'
-// import t2 from '../../assets/t2.jpeg'
-// import t3 from '../../assets/t3.png'
-// import t4 from '../../assets/t4.jpg'
-// import t5 from '../../assets/t5.jpg'
-// import d1 from '../../assets/d1.jpg'
-// import d2 from '../../assets/d2.jpg'
-// import pr1 from '../../assets/pr1.jpeg'
-// import pr2 from '../../assets/pr2.jpg'
-// import m1 from '../../assets/m1.jpeg'
-// import m2 from '../../assets/m2.jpg'
-// import crt1 from '../../assets/Onkar.jpg'
-// import crt2 from '../../assets/Ayush_ahire.jpg'
-// import crt3 from '../../assets/Shweta.jpg'
-// import crt4 from '../../assets/Vedant.jpg'
-// import crt5 from '../../assets/anvi.jpg'
-// import crd1 from '../../assets/Nikita_Thakur.jpg'
-// import crd2 from '../../assets/Raunak.jpg'
-// import crd3 from '../../assets/IMG_20230101_104115.jpg'
-// import crm1 from '../../assets/SohamVadje_Management.jpg'
-// import crm2 from '../../assets/prathamesh.jpg'
-// import crm3 from '../../assets/Arpan.jpg'
-// import crp1 from '../../assets/Vardha.png'
-// import crp2 from '../../assets/Neelam.jpg'
-// import crp3 from '../../assets/Yash_dhoot_PR_Co.jpg'
+import image from '../../assets/img1.png'
+import ins from '../../assets/deepaliMam.jpg'
+import t1 from '../../assets/t1.jpg'
+import t2 from '../../assets/t2.jpeg'
+import t3 from '../../assets/t3.png'
+import t4 from '../../assets/t4.jpg'
+import t5 from '../../assets/t5.jpg'
+import d1 from '../../assets/d1.jpg'
+import d2 from '../../assets/d2.jpg'
+import pr1 from '../../assets/pr1.jpeg'
+import pr2 from '../../assets/pr2.jpg'
+import m1 from '../../assets/m1.jpeg'
+import m2 from '../../assets/m2.jpg'
+import crt1 from '../../assets/Onkar.jpg'
+import crt2 from '../../assets/Ayush_ahire.jpg'
+import crt3 from '../../assets/Shweta.jpg'
+import crt4 from '../../assets/Vedant.jpg'
+import crt5 from '../../assets/anvi.jpg'
+import crd1 from '../../assets/Nikita_Thakur.jpg'
+import crd2 from '../../assets/Raunak.jpg'
+import crd3 from '../../assets/IMG_20230101_104115.jpg'
+import crm1 from '../../assets/SohamVadje_Management.jpg'
+import crm2 from '../../assets/prathamesh.jpg'
+import crm3 from '../../assets/Arpan.jpg'
+import crp1 from '../../assets/Vardha.png'
+import crp2 from '../../assets/Neelam.jpg'
+import crp3 from '../../assets/Yash_dhoot_PR_Co.jpg'
 
-import lead from '../../assets/Leads/lead.jpg'
-import sankalp from '../../assets/Leads/sankalp.jpg'
-import kaushal from '../../assets/Leads/kaushal.jpg'
+// import lead from '../../assets/Leads/lead.jpg'
+import s1 from '../../assets/Leads/sankalp.jpg'
+
+// import kaushal from '../../assets/Leads/kaushal.jpg'
 
 let info = {
     lead: [
         {
             name: "Ganesh Dhalke",
             position: "Lead",
-            img: lead,
+            img: ins,
             shadow: "#F74037",
             insta: "",
             github: "",
@@ -44,7 +45,7 @@ let info = {
         {
             name: "Maithili Mahesh",
             position: "Co-Lead",
-            img: lead,
+            img: t1,
             shadow: "#F74037",
             insta: "",
             github: "",
@@ -66,7 +67,7 @@ let info = {
             {
                 name: "Sankalp Panchabhai",
                 position: "Web Lead",
-                img: sankalp,
+                img: s1,
                 shadow: "#4285F4",
                 insta: "",
                 github: "",
@@ -75,7 +76,7 @@ let info = {
             {
                 name: "Varun Nagote",
                 position: "DSA-CP Lead",
-                img: t2,
+                img: s1,
                 shadow: "#14B25F",
                 insta: "",
                 github: "",
@@ -84,7 +85,7 @@ let info = {
             {
                 name: "Atharva ",
                 position: "Android Lead",
-                img: t3,
+                img: s1,
                 shadow: "#FBBC04",
                 insta: "",
                 github: "",
@@ -93,7 +94,7 @@ let info = {
             {
                 name: "Atharva",
                 position: "AI-ML Lead",
-                img: t4,
+                img: s1,
                 shadow: "#4285F4",
                 insta: "",
                 github: "",
@@ -102,7 +103,7 @@ let info = {
             {
                 name: "Anjali Agale",
                 position: "Cloud Lead",
-                img: t5,
+                img: s1,
                 shadow: "#14B25F",
                 insta: "",
                 github: "",
@@ -111,7 +112,7 @@ let info = {
             {
                 name: "Tanishka Mutta",
                 position: "Cyber Security",
-                img: crt1,
+                img: s1,
                 shadow: "#14B25F",
                 insta: "",
                 github: "",
@@ -120,7 +121,7 @@ let info = {
             {
                 name: "Sidhant",
                 position: "Cyber Security Lead",
-                img: crt2,
+                img: s1,
                 shadow: "#4285F4",
                 insta: "",
                 github: "",
@@ -130,7 +131,7 @@ let info = {
             {
                 name: "Shweta Mandal",
                 position: "Tech Coordinator",
-                img: crt3,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -139,7 +140,7 @@ let info = {
             {
                 name: "Anvi Gautam",
                 position: "Tech Coordinator",
-                img: crt5,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -148,7 +149,7 @@ let info = {
             {
                 name: "Vedant Bodkhe",
                 position: "Tech Coordinator",
-                img: crt4,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -160,7 +161,7 @@ let info = {
             {
                 name: "Kaushal Abhojwar",
                 position: "Design Lead",
-                img: kaushal,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -169,7 +170,7 @@ let info = {
             {
                 name: "Sakshi Chaudhari",
                 position: "Design Lead",
-                img: d1,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -178,7 +179,7 @@ let info = {
             {
                 name: "Sarvesh Chavan",
                 position: "Design Coordinator",
-                img: crd3,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -188,7 +189,7 @@ let info = {
             {
                 name: "shreya",
                 position: "Design Coordinator",
-                img: crd1,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -197,7 +198,7 @@ let info = {
             {
                 name: "Atharva",
                 position: "Design Coordinator",
-                img:crd2,
+                img:s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -209,7 +210,7 @@ let info = {
             {
                 name: "Janhavi Ghanghav",
                 position: "Management Lead",
-                img: m1,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -218,7 +219,7 @@ let info = {
             {
                 name: "Nitin Daiya",
                 position: "Management Lead",
-                img: m2,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -227,7 +228,7 @@ let info = {
             {
                 name: "Sujal Patil",
                 position: "Management Lead",
-                img: crm1,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -236,7 +237,7 @@ let info = {
             {
                 name: "Rutuja Chaudhari",
                 position: "Management Lead",
-                img: crm1,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -249,7 +250,7 @@ let info = {
             {
                 name: "Vaishnavi Mokadam",
                 position: "PR Lead",
-                img: pr1,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -258,7 +259,7 @@ let info = {
             {
                 name: "Vaishnavi Barge",
                 position: "PR Lead",
-                img: pr2,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -267,7 +268,7 @@ let info = {
             {
                 name: "K.S.S. Varsha",
                 position: "PR Coordinator",
-                img: crp1,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -276,7 +277,7 @@ let info = {
             {
                 name: "Yash Dhoot",
                 position: "PR Coordinator",
-                img: crp3,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -285,7 +286,7 @@ let info = {
             {
                 name: "Neelam Pawar",
                 position: "PR Coordinator",
-                img: crp2,
+                img: s1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",

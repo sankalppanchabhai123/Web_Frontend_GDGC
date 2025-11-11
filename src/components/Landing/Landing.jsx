@@ -58,7 +58,7 @@ const Landing = () => {
   };
 
 
-  const m1 = "Google Developer Student Club";
+  const m1 = "Google Developer Group on Campus";
   const m = m1.split("");
   console.log(m)
 
@@ -93,11 +93,11 @@ const Landing = () => {
     <>
       {/* <HomePageBG2 /> */}
       {/* <div className={classes.cubes}> */}
-        {/* <img src={backsvg} /> */}
-        {!mobileView && <Homepage2BG />}
-        {/* <Cube id="paint0_linear_11_7" top={x1} left={y1} startColor="#4285F4" stopColor="#0F9D58" /> */}
-        {/* <Cube id="paint0_linear_11_7" top={x1} left={y1} startColor="#4285F4" stopColor="#0F9D58" /> */}
-        {/* <Cube id="paint0_linear_11_7" top={x1} left={y1} startColor="#4285F4" stopColor="#0F9D58" /> */}
+      {/* <img src={backsvg} /> */}
+      {!mobileView && <Homepage2BG />}
+      {/* <Cube id="paint0_linear_11_7" top={x1} left={y1} startColor="#4285F4" stopColor="#0F9D58" /> */}
+      {/* <Cube id="paint0_linear_11_7" top={x1} left={y1} startColor="#4285F4" stopColor="#0F9D58" /> */}
+      {/* <Cube id="paint0_linear_11_7" top={x1} left={y1} startColor="#4285F4" stopColor="#0F9D58" /> */}
       {/* </div> */}
       <div className={`${classes.mainContainer} ${theme.theme === "dark" ? classes.dark : ""}`}>
         <div className={classes.mainLockup}>
