@@ -2,7 +2,7 @@
 // <<<<<<< HEAD
 // import "dotenv/config"
 // =======
-import "dotenv/config.js"
+// import "dotenv/config.js"
 // >>>>>>> 97ef6bc988f912c89113c3155baa8c13a2eb5ffd
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
