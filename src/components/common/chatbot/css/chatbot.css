@@ -1,6 +1,5 @@
 .topone {
   width: 100%;
-  height: 90px;
   margin: auto;
   z-index: 4;
 }
@@ -179,7 +178,7 @@
   box-shadow: rgba(99, 99, 99, 0.2) 7px 7px 7px 7px;
 }
 
-.chatbotdiv.dark .react-chatbot-kit-chat-container {
+.chatbotdiv.dark .react-chatbot-kit-chat-container{
   box-shadow: none;
 }
 
@@ -189,11 +188,9 @@
   border-radius: 18px;
   z-index: 4;
 }
-
 .chatbotdiv.dark .react-chatbot-kit-chat-inner-container {
   background-color: #353535;
 }
-
 /*  */
 
 .react-chatbot-kit-chat-header {
@@ -233,8 +230,7 @@
   -ms-overflow-style: none;
 
 }
-
-.react-chatbot-kit-chat-message-container::-webkit-scrollbar {
+.react-chatbot-kit-chat-message-container::-webkit-scrollbar{
   display: none;
 }
 
@@ -373,7 +369,7 @@
   background: none;
 }
 
-.box.hide p {
+.box.hide p{
   display: none;
 }
 
@@ -496,7 +492,7 @@
 
 @media screen and (max-width:460px) {
 
-  .box {
+  .box{
     right: 10%;
   }
 
