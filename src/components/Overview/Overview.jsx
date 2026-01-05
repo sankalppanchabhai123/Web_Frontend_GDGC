@@ -13,9 +13,8 @@ const Overview = () => {
     const [selected, setSelected] = useState(null)
     const toggle = (i) => {
         if (selected === i) {
-            return setSelected(null)
+            return setSelected(null);
         }
-
         setSelected(i)
     }
     return (
@@ -23,7 +22,7 @@ const Overview = () => {
             <div className={classes.leftSection}>
                 <h1>What is GDGC ? 🤔</h1>
                 <p>
-                    Google Developer Student Clubs is a student-led program supported by Google. It's a dynamic platform for students to learn, collaborate on web and mobile development, machine learning, and more.
+                    Google Developer Group Oncampus is a student-led program supported by Google. It's a dynamic platform for students to learn, collaborate on web and mobile development, machine learning, and more.
                     <span>
                         GDGC fosters skill-building, networking, and grants access to Google's resources and expertise, making it an invaluable opportunity for tech enthusiasts.
                     </span>
@@ -68,3 +67,4 @@ const Overview = () => {
 }
 
 export default Overview
+// footerLogo

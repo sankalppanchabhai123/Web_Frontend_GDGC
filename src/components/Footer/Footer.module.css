@@ -11,11 +11,22 @@
 }
 
 
+.brand_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    height: 120px;
+}
+
 .main .logo {
     margin-top: 5em;
 }
 
-.main .links{
+.main .links {
     display: flex;
     align-items: flex-start;
     gap: 5vw;
@@ -44,7 +55,7 @@
     transition: .5s ease-in-out;
 }
 
-.main ul a:hover{
+.main ul a:hover {
     color: white;
     transition-duration: 0s;
 }
@@ -56,7 +67,7 @@
     align-items: center;
 }
 
-.connect ul{
+.connect ul {
     height: 25vh;
     display: flex;
     align-items: center;
@@ -68,16 +79,17 @@
 
 
 @media screen and (max-width: 1000px) {
-    .main .links{
+    .main .links {
         gap: 3vw;
     }
-    .main ul a{
+
+    .main ul a {
         font-size: small;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .main{
+    .main {
         height: fit-content;
         background-repeat: no-repeat;
         background-size: cover;
@@ -87,10 +99,12 @@
         padding-bottom: 20px;
         margin-bottom: 0;
     }
-    .main .logo{
+
+    .main .logo {
         padding: 0 10px;
     }
-    .main .links{
+
+    .main .links {
         width: 100%;
         padding: 0 20px;
         flex-direction: row;
@@ -98,13 +112,16 @@
         align-items: flex-start;
         justify-content: space-between;
     }
-    .main .connect{
+
+    .main .connect {
         width: 90%;
     }
-    .main .connect h2{
+
+    .main .connect h2 {
         display: none;
     }
-    .main .connect ul{
+
+    .main .connect ul {
         justify-content: space-around;
         flex-direction: row;
     }

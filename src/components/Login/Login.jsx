@@ -33,7 +33,7 @@ const Login = () => {
 
   const openMsg = (e) => {
     e.preventDefault()
-    if (!userdata.email || !userdata.password){
+    if (!userdata.email || !userdata.password) {
       alert("Please fill all the fields")
       return
     }
@@ -71,14 +71,14 @@ const Login = () => {
               <input type='password' className={classes.input} required value={userdata.password} onChange={(e) => setuserdata({ ...userdata, password: e.target.value })} placeholder='**************'></input>
               <button className={classes.signin} onClick={openMsg} type='submit' >Sign In</button>
               {/* <button className={classes.forgot}>Forgot Password ? </button> */}
-              {/* <p className={classes.others}>Sign In using : </p>
+              <p className={classes.others}>Sign In using : </p>
               <div className={classes.btn}>
                 <button className={classes.go_btn}
                   data-aos="zoom-in-left"><img className={classes.google_btn} src={google} alt="" /></button>
                 <button className={classes.go_btn} data-aos="zoom-in-up"><img className={classes.discord_btn} src={discord} alt="" /></button>
                 <button className={classes.go_btn} data-aos="zoom-in-down"><img className={classes.github_btn} src={github} alt="" /></button>
                 <button className={classes.go_btn} data-aos="zoom-in-right"><img className={classes.linkedin_btn} src={linkedin} alt="" onClick={() => submitform()} /></button>
-              </div> */}
+              </div>
             </form>
           </motion.div>
         </div>
@@ -93,7 +93,7 @@ const Login = () => {
           >
             <span onClick={closeMsg}></span>
             <h1>Sorry 😕😕</h1>
-            <h2>Seems Like You are not a GDSC Team Member</h2>
+            <h2>Seems Like You are not a GDGC Team Member</h2>
           </motion.div>
         }
       </AnimatePresence>

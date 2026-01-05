@@ -35,7 +35,12 @@ const ProjectSection = () => {
                     <img src={right} className={classes.rclass} alt='' data-aos="fade-right" />
                 </div>
                 <div className={classes.container}>
+<<<<<<< Updated upstream
                     {/* {projectData.map((current) => <ProjectCard key={current.projectName} current={current} />)} */}
+=======
+                    {/* {projectData.map((current) => <ProjectCard2 key={current.projectName} current={current} />)} */}
+                    {info.map((current) => <ProjectCard key={current.projectName} current={current} />)}
+>>>>>>> Stashed changes
                 </div>
             </div>
         </>

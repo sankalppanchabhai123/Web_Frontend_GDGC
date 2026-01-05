@@ -1,6 +1,7 @@
 import React from "react";
+import { useContext } from "react";
 import classes from "./Footer.module.css";
-import FooterLogo from "../common/SVGs/FooterLogo";
+// import FooterLogo from "../common/SVGs/FooterLogo";
 import GithubIcon from "../common/SVGs/Github";
 import LinkedIn from "../common/SVGs/LinkedIn";
 // import Insta from "../common/SVGs/Insta";
@@ -13,12 +14,22 @@ import Twitter from "../common/SVGs/Twitter";
 import Medium from "../common/SVGs/Medium";
 import Facebook from "../common/SVGs/Facebook";
 
+import lightLogo from "../../assets/nav_logo_light.png";
+import darkLogo from "../../assets/nav_logo_dark.png";
+import { ThemeContext } from '../../App'
+
 const Footer = () => {
+  const theme = useContext(ThemeContext);
   return (
     <div className={classes.main}>
-      <div className={classes.logo}>
+      {/* <div className={classes.logo}>
         <FooterLogo color1={"#fff"} color2={"#ffffffa8"} />
+        <img src={theme.theme === "light" ? lightLogo : darkLogo} alt="logo" className={classes.logo} />
+      </div> */}
+      <div className={classes.brand_logo}>
+        <img src={theme.theme === "light" ? lightLogo : darkLogo} alt="logo" className={classes.logo} />
       </div>
+
       <div className={classes.links}>
         <div className={`${classes.contribute}`}>
           <h2>Contribute</h2>
@@ -51,7 +62,7 @@ const Footer = () => {
           <Link target="_blank" to="https://www.linkedin.com/company/dsc-dypcoe/"><LinkedIn height={30} width={30} /></Link>
           <Link target="_blank" to="https://www.instagram.com/dsc_dypcoe/"><Insta height={30} width={30} /></Link>
           <Link target="_blank" to="https://discord.com/invite/AjHxR5D5rE"><Discord height={30} width={30} /></Link>
-          <Link target="_blank" to="https://twitter.com/DSC_DYPCOE"><Twitter height={30} width={30}/></Link>
+          <Link target="_blank" to="https://twitter.com/DSC_DYPCOE"><Twitter height={30} width={30} /></Link>
           <Link target="_blank" to="https://www.youtube.com/@gdscdypcoe6579"><Youtube height={30} width={30} /></Link>
           <Link target="_blank" to="https://medium.com/dsc-dypcoe"><Medium height={30} width={30} /></Link>
           <Link target="_blank" to="https://www.facebook.com/dsc.dypcoe"><Facebook height={30} width={30} /></Link>

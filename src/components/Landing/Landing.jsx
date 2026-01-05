@@ -58,7 +58,11 @@ const Landing = () => {
   };
 
 
+<<<<<<< Updated upstream
   const m1 = "Google Developer Group on Campus";
+=======
+  const m1 = "Google Developer Group Oncampus";
+>>>>>>> Stashed changes
   const m = m1.split("");
   console.log(m)
 
@@ -116,7 +120,7 @@ const Landing = () => {
               })
             }</motion.h1>
           <h3>D. Y. Patil College of Engineering</h3>
-          <Button label={<Link to="https://gdsc.community.dev/dy-patil-college-of-engineering-pune/" target="_blank" style={{ textDecoration: "none", color: "#fff" }}>Join Community</Link>} padding="0.75em 1.2em" margin="10px 0px" />
+          <Button label={<Link to="https://gdg.community.dev/gdg-on-campus-dy-patil-college-of-engineering-pune-india/" target="_blank" style={{ textDecoration: "none", color: "#fff" }}>Join Community</Link>} padding="0.75em 1.2em" margin="10px 0px" />
         </div>
       </div>
     </>
