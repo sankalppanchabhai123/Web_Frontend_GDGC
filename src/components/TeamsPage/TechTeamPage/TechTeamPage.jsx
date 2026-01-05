@@ -40,7 +40,7 @@ const TechTeamPage = ({ data }) => {
 
             {/* <h1 className={classes.h1} data-aos="fade-left">Leads</h1> */}
 
-            <div className={${classes.technicalTeam} ${classes.cardContainers}}>
+            <div className={`${classes.technicalTeam} ${classes.cardContainers}`}>
 
                 {
 
@@ -54,7 +54,7 @@ const TechTeamPage = ({ data }) => {
 
             <h1 className={classes.h1} data-aos="fade-left">Coordinators</h1>
 
-            <div className={${classes.managementTeam} ${classes.cardContainers}}>
+            <div className={`${classes.managementTeam} ${classes.cardContainers}`}>
 
                 {
 
